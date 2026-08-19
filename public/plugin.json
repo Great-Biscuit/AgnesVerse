@@ -1,0 +1,42 @@
+{
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "image",
+      "explain": "使用 Agnes AI 生成图片（文生图 / 图生图）",
+      "cmds": [
+        "图片生成",
+        "AI画图",
+        "生图"
+      ]
+    },
+    {
+      "code": "video",
+      "explain": "使用 Agnes AI 生成视频（文生视频 / 图生视频）",
+      "cmds": [
+        "视频生成",
+        "AI视频",
+        "生视频"
+      ]
+    },
+    {
+      "code": "settings",
+      "explain": "配置 Agnes AI API Key",
+      "cmds": [
+        "Agnes设置",
+        "API Key"
+      ]
+    },
+    {
+      "code": "history",
+      "explain": "查看历史生成记录",
+      "cmds": [
+        "历史记录",
+        "生成记录",
+        "agnes history"
+      ]
+    }
+  ]
+}
