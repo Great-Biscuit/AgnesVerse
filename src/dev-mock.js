@@ -1,5 +1,5 @@
 if (!window.utools) {
-  const DEFAULT_API_KEY = 'sk-K61PdJSI7mXaVb3kUGORmPaXrSPV49vzA1FTEsEoGl7NtURa'
+  const DEFAULT_API_KEY = 'sk-xxx'
   let mockApiKey = DEFAULT_API_KEY
 
   window.utools = {
