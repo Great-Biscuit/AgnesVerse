@@ -113,7 +113,8 @@ npm run build
 5. **多图生成**: 支持 1-4 张并行生成
 6. 生成完成后可下载、复制图片
 
-![image-20260819151817935](E:\Stu\Agnes-AI\Agnes-AI图片视频生成\image-20260819151817935.png)
+<img width="2560" height="1380" alt="image-20260819151817935" src="https://github.com/user-attachments/assets/20e4b5ac-036b-4cf6-9561-db82b7395708" />
+
 
 ### 视频生成
 
@@ -123,7 +124,8 @@ npm run build
 4. **时长**: 5 秒 / 10 秒
 5. 生成过程显示实时进度，完成后可预览、下载
 
-![image-20260819152046039](E:\Stu\Agnes-AI\Agnes-AI图片视频生成\image-20260819152046039.png)
+<img width="2560" height="1380" alt="image-20260819152046039" src="https://github.com/user-attachments/assets/7dc9731e-6078-4369-ae63-f3d2e52fc3c3" />
+
 
 ### 历史记录
 
@@ -133,7 +135,8 @@ npm run build
 - 支持单条删除和清空全部
 - 最多保留 200 条记录
 
-![image-20260819152204438](E:\Stu\Agnes-AI\Agnes-AI图片视频生成\image-20260819152204438.png)
+<img width="1005" height="755" alt="image-20260819152204438" src="https://github.com/user-attachments/assets/9ac90953-ac2c-4846-919e-27ec5268d60d" />
+
 
 ### API 设置
 
@@ -141,7 +144,8 @@ npm run build
 - 点击「测试连接」验证有效性
 - API Key 通过 uTools dbStorage 本地加密存储
 
-![image-20260819151554897](E:\Stu\Agnes-AI\Agnes-AI图片视频生成\image-20260819151554897.png)
+<img width="982" height="726" alt="image-20260819151554897" src="https://github.com/user-attachments/assets/b7f06cf7-689b-452a-a508-1363448d720d" />
+
 
 ## API 参考
 
