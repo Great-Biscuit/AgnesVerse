@@ -23,6 +23,10 @@ const openApiKeysPage = () => {
   window.services.openExternal('https://platform.agnes-ai.com/settings/apiKeys')
 }
 
+const openSourceRepo = () => {
+  window.services.openExternal('https://github.com/Great-Biscuit/AgnesVerse')
+}
+
 const testConnection = async () => {
   if (!apiKey.value.trim()) {
     testResult.value = '请先输入 API Key'
@@ -58,6 +62,11 @@ const apiKeyInfo = [
 
 <template>
   <div class="settings">
+    <div class="opensource-box">
+      <span class="opensource-label">开源地址：</span>
+      <a class="opensource-link" @click="openSourceRepo">https://github.com/Great-Biscuit/AgnesVerse</a>
+    </div>
+
     <div class="guide-box">
       <p><strong>使用前请先配置 API Key</strong></p>
       <p>1. 前往 Agnes AI 控制台的
@@ -107,6 +116,34 @@ const apiKeyInfo = [
 
 <style scoped>
 .settings { max-width: 640px; }
+
+.opensource-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+}
+
+.opensource-label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.opensource-link {
+  color: var(--accent, #4c8eff);
+  cursor: pointer;
+  font-family: "SF Mono", "Cascadia Code", "Consolas", monospace;
+  word-break: break-all;
+}
+
+.opensource-link:hover {
+  text-decoration: underline;
+}
 
 .card-title {
   margin: 0 0 16px;
